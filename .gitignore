@@ -216,3 +216,27 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# =========================
+# Licensed financial data
+# =========================
+
+data/raw/
+data/interim/
+
+# Commercial database exports
+总股本与总市值.xlsx
+公告日期.csv
+停复牌日期.csv
+total_share.csv
+总市值与筛选指标.csv
+
+# Local IDE files
+.trae/
+
+# Jupyter temporary files
+.ipynb_checkpoints/
+
+# Environment / credentials
+.env
+*.key
